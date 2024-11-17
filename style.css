@@ -1,0 +1,284 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #259ba5, #de72a8); /* Gradient background */
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header styling */
+header {
+    background-color: #1c1c1c; /* Darker background for header */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #e8b07c; /* Change the hover color */
+}
+
+/* Section styling */
+section {
+    padding: 50px 0;
+}
+
+/* Welcome Section */
+#display-image {
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+#display-image img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#display-image h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#display-image {
+    background: rgba(255, 255, 255, 0.8); /* Light background to contrast the image */
+    border-radius: 1rem;
+}
+
+#display-image a {
+    background-color: #1e40af; /* Change button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#display-image a:hover {
+    background-color: #3b82f6; /* Change button hover color */
+}
+
+/* About Section */
+#about {
+    background-color: #b2edf9;
+}
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Education Section */
+#education {
+    background-color: #cbf5ef;
+}
+
+#education h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#education .bg-white {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#education .text-xl {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#education p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#education .bg-white:hover{
+    transform: translateY(-10px); /* Move up on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+    background-color: #e2e8f0; /* Light gray background on hover */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #4c4949;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+#projects .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#projects .bg-gray-100 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(233, 17, 211, 0.834);
+    border-color: darkmagenta;
+}
+#projects:hover{
+    transition: background-color 0.3s ease;
+}
+#projects h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#projects .text-sm {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+
+/* Hover Effect on Project Titles */
+#projects .bg-gray-100:hover .text-xl {
+    color: #83468a; /* Blue color for titles on hover */
+}
+
+#projects .bg-gray-100:hover {
+    transform: translateY(-10px); /* Move up on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+    background-color: #e2e8f0; /* Light gray background on hover */
+}
+
+.bg-white py-12{
+    background-color: #f3f4f6; /* Light gray background for a clean, modern look */
+}
+
+
+/* Resume Section */
+#resume {
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+/* #resume a {
+    background-color: #1e40af;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+} */
+
+a.bg-blue-500 {
+    transition: background-color 0.3s ease;
+}
+
+a.bg-blue-500:hover {
+    background-color: #2b6cb0;
+}
+/* #resume a:hover {
+    background-color: #3b82f6;
+} */
+
+/* Footer Section */
+footer {
+    background-color: #1a202c; /* Dark background with a little contrast */
+}
+footer a:hover {
+    color: #facc15; /* Yellow hover effect */
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .flex {
+    justify-content: center;
+    gap: 20px;
+}
+
+/* footer .flex a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* footer .flex a:hover {
+    color: #ffd700; /* Gold color for hover effect */
+ 
+
+/* Contact Section */
+#contact {
+    background-color: #1e40af;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: underline;
+}
